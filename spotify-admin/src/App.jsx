@@ -3,10 +3,10 @@ import "react-toastify/dist/ReactToastify.css";
 import { Routes, Route } from "react-router-dom";
 import AddSong from "./pages/AddSong";
 import AddAlbum from "./pages/AddAlbum";
-import ListAlbum from "./pages/ListAlbum";
 import ListSong from "./pages/ListSong";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar"
+import ListAlbum from "./pages/ListAlbum";
 
 export const url = 'http://localhost:4000'
 
