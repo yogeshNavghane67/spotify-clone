@@ -57,6 +57,7 @@ const ListAlbum = () => {
               <p>{item.desc}</p>
               <input type="color" value={item.bgColour} />
               <p onClick={()=>removeAlbum(item._id)} className="cursor-pointer">x</p>
+              
             </div>
           );
         })}
