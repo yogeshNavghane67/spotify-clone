@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar"
 import ListAlbum from "./pages/ListAlbum";
 
 
-export const url = 'http://localhost:4000'
+export const url = 'https://spotify-clone-two-roan.vercel.app'
 
 const App = () => {
   return (
